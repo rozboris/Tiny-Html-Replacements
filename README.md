@@ -6,12 +6,12 @@ It allows you surround selected HTML code with the tag customized in the Key Bin
 
 ## Example ##
 
-Suppose you have an HTML code and you want to insert a link (or make it bold). Select the text you want to link, press Ctrl+q (can be configured, see below) and your text now is surrounded by <a href="#"></a>! 
+Suppose you have an HTML code and you want to insert a link (or make it bold). Select the text you want to link, press Ctrl+q (can be configured, see below) and your text now is surrounded by `<a href="#"></a>`! 
 
 Now Tiny HTML Replacements supports following tags:
 
-* <a href="#">
-* <strong>
+* `<a href="#">`
+* `<strong>`
 * <li>
 * <p>
 * <h2 class="sectionHeading">
