@@ -20,8 +20,8 @@ Now Tiny HTML Replacements supports following tags:
 <pre>
 	"args": {
 		"c": "custom", 
-		"start": "<mySuperTag class=\"myCustomizedClass\" border=1>", 
-		"end": "</mySuperTag>"
+		"start":`<"mySuperTag class=\"myCustomizedClass\" border=1>`", 
+		"end": "`</mySuperTag>`"
 	}
 </pre>
 
@@ -52,7 +52,7 @@ and clone the repository here:
 	{ "keys": ["ctrl+1"], "command": "tiny_html_replacements", "args": {"c": "p"}},
 	{ "keys": ["ctrl+2"], "command": "tiny_html_replacements", "args": {"c": "h2_sh"}},
 	{ "keys": ["ctrl+3"], "command": "tiny_html_replacements", "args": {"c": "h3"}},
-	{ "keys": ["ctrl+5"], "command": "tiny_html_replacements", "args": {"c": "custom", "start": "<ul class=\"menu\">", "end": "</ul>"}},
+	{ "keys": ["ctrl+5"], "command": "tiny_html_replacements", "args": {"c": "custom", "start": "`<ul class=\"menu\">", "end": "</ul>`"}},
 	{ "keys": ["ctrl+4"], "command": "tiny_html_replacements", "args": {"c": "b"}}
 </pre>
 ## Donate ##
