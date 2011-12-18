@@ -16,6 +16,7 @@ Now Tiny HTML Replacements supports following tags:
 * `<p>`
 * `<h2 class="sectionHeading">`
 * `<h3>`
+* You can escape non-HTML characters
 * You can add custom command! Just put the following args to the Key Bindings file:
 <pre>
 	"args": {
@@ -29,6 +30,8 @@ Now Tiny HTML Replacements supports following tags:
 ## Updates ##
 
 If you have and ideas how to make the plugin better, feel free to [create an issue][issues]!
+
+* (18 Dec 2011) Now you can escape non-HTML characters (like `<` or `>`) with `escape_html` command (see config in `How to setup` section below).
 
 * (18 Dec 2011) First commit, some simple tags supported!
 
@@ -53,7 +56,8 @@ and clone the repository here:
 	{ "keys": ["ctrl+2"], "command": "tiny_html_replacements", "args": {"c": "h2_sh"}},
 	{ "keys": ["ctrl+3"], "command": "tiny_html_replacements", "args": {"c": "h3"}},
 	{ "keys": ["ctrl+5"], "command": "tiny_html_replacements", "args": {"c": "custom", "start": "`<ul class=\"menu\">", "end": "</ul>`"}},
-	{ "keys": ["ctrl+4"], "command": "tiny_html_replacements", "args": {"c": "b"}}
+	{ "keys": ["ctrl+4"], "command": "tiny_html_replacements", "args": {"c": "b"}},
+	{ "keys": ["ctrl+6"], "command": "tiny_html_replacements", "args": {"c": "escape_html"}}
 </pre>
 
 ## Donate ##
