@@ -12,16 +12,18 @@ Now Tiny HTML Replacements supports following tags:
 
 * `<a href="#">`
 * `<strong>`
-* <li>
-* <p>
-* <h2 class="sectionHeading">
-* <h3>
+* `<li>`
+* `<p>`
+* `<h2 class="sectionHeading">`
+* `<h3>`
 * You can add custom command! Just put the following args to the Key Bindings file:
+<pre>
 	"args": {
 		"c": "custom", 
 		"start": "<mySuperTag class=\"myCustomizedClass\" border=1>", 
 		"end": "</mySuperTag>"
 	}
+</pre>
 
 
 ## Updates ##
@@ -45,14 +47,14 @@ and clone the repository here:
 ## How to setup ##
 
 * Open `Preferences → Key Bindings — User` in Sublime Text 2 and add the following code:
-	
+<pre>
 	{ "keys": ["ctrl+q"], "command": "tiny_html_replacements", "args": {"c": "li"}},
 	{ "keys": ["ctrl+1"], "command": "tiny_html_replacements", "args": {"c": "p"}},
 	{ "keys": ["ctrl+2"], "command": "tiny_html_replacements", "args": {"c": "h2_sh"}},
 	{ "keys": ["ctrl+3"], "command": "tiny_html_replacements", "args": {"c": "h3"}},
 	{ "keys": ["ctrl+5"], "command": "tiny_html_replacements", "args": {"c": "custom", "start": "<ul class=\"menu\">", "end": "</ul>"}},
 	{ "keys": ["ctrl+4"], "command": "tiny_html_replacements", "args": {"c": "b"}}
-
+</pre>
 ## Donate ##
 
 If you like Tiny HTML Replacements plugin you can [donate][donate] to the author (via PayPal).
