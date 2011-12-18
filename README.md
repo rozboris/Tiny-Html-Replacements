@@ -2,7 +2,7 @@
 
 Tiny HTML Replacements is a small but useful HTML plugin for [Sublime Text 2][sublime] editor. If you like it you can [donate][donate] to the author via PayPal.
 
-It allows you surround selected HTML code with the tag customized in the Key Bindings config file.
+It allows you surround selected HTML code with the tag customized in the `Key Bindings` config file.
 
 ## Example ##
 
@@ -20,7 +20,7 @@ Now Tiny HTML Replacements supports following tags:
 <pre>
 	"args": {
 		"c": "custom", 
-		"start":`<"mySuperTag class=\"myCustomizedClass\" border=1>`", 
+		"start": "`<mySuperTag class=\"myCustomizedClass\" border=1>`", 
 		"end": "`</mySuperTag>`"
 	}
 </pre>
@@ -55,9 +55,10 @@ and clone the repository here:
 	{ "keys": ["ctrl+5"], "command": "tiny_html_replacements", "args": {"c": "custom", "start": "`<ul class=\"menu\">", "end": "</ul>`"}},
 	{ "keys": ["ctrl+4"], "command": "tiny_html_replacements", "args": {"c": "b"}}
 </pre>
+
 ## Donate ##
 
-If you like Tiny HTML Replacements plugin you can [donate][donate] to the author (via PayPal).
+If you like Tiny HTML Replacements plugin you can [donate][donate] to the author via PayPal.
 
 ---------
 
